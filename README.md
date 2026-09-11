@@ -1,1 +1,1 @@
-O sistema do Junior tem como objetivo desenvolver um sistema que possibilite realizar o gerenciamamento de uma loja online focada na venda de Action figures.
+O sistema do Junior tem como objetivo desenvolver um sistema que funcione como um loja virtual, onde ele possa fazer suas vendas, como suas Action Figures.
