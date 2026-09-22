@@ -1,55 +1,59 @@
 * {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 #header {
-  background-color: #8dfc72;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+    background-color: rgb(89, 238, 153);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #header-cabecalio {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+#header-cabecalio span {
+    color: rgb(53, 96, 90);
+    font-size: 30px;
+    font-weight: bold;
 }
 
-span{
-color:#7327ff;
+span {
+    color: #7327ff;
 }
 
 a {
-  text-decoration: none;
-  background-color: #8347f3;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 8px;
-  padding-right: 8px;
-  border-radius: 6.5px;
-  color: #ffffff;
+    text-decoration: none;
+    background-color: rgb(53, 96, 90);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6.5px;
+    color: rgb(89, 238, 153);
 }
 
 #main-info {
-    background-color: rgb(166, 147, 248);
+    background-color: rgb(166, 193, 255);
     color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
     margin-left: 20px;
     margin-top: 30px;
     margin-right: 20px;
     margin-bottom: 30px;
-    
 }
 #main-info p {
     font-size: 20px;
@@ -58,12 +62,59 @@ a {
 
 #main-info img {
     padding-top: 30px;
-    width: 350px; 
-    height: auto; 
+    width: 350px;
+    height: auto;
+}
+#main-info span {
+    color: rgb(176, 58, 255);
 }
 
 #wow {
     width: 45%;
     font-size: 50px;
     padding-bottom: 10px;
+}
+
+#intro-cards {
+    padding-left: 40px;
+    color: white;
+}
+
+#cards {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    column-gap: 150px;
+    margin-bottom: 40px;
+}
+
+.card {
+    text-align: left;
+    margin-bottom: 30px;
+    background-color: rgb(162, 111, 255);
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 450px;
+    height: 450px;
+}
+.card small {
+    padding-left: 10px;
+}
+
+footer {
+    background-color: rgb(89, 238, 153);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 30px;
 }
