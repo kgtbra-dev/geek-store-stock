@@ -100,7 +100,7 @@ a {
 .card {
     width: 25.5%;
     margin-bottom: 30px;
-    background-color: rgb(109, 36, 255);
+    background-color: rgb(143, 94, 241);
     margin-top: 20px;
     padding: 10px;
     padding-bottom: 10px;
@@ -146,4 +146,24 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+table {
+   width: 100%;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+th, td{
+    border: 1px;
+    padding: 5px;
+    text-align: left;
+}
+td {
+   background-color: rgb(143, 94, 241);
+}
+th {
+    background-color: rgb(89, 238, 153);
 }
