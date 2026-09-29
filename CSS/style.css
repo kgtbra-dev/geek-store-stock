@@ -137,3 +137,13 @@ footer p {
     font-size: 20px;
     font-weight: bold;
 }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+li {
+    list-style-type: none;
+}
